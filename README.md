@@ -1,3 +1,5 @@
+Introduce the sleep timer functionality from the mobile Spotify app to the desktop client. Built on Spicetify, the Spotify client modifier.
+
 # Spicetify Creator
 
 Spicetify Creator is a tool to compile modern Typescript/Javascript code to Spicetify extensions and custom apps.
