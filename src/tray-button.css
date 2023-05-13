@@ -1,0 +1,44 @@
+/* Styles taken from "ehgHWV" class.
+*/
+@supports (overflow-wrap:anywhere) {
+    #st-tray-button {
+        overflow-wrap: anywhere;
+    }
+}
+@media (min-width: 768px){
+    #st-tray-button {
+        font-size: 0.875rem;
+    }
+}
+#st-tray-button {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    background-color: transparent;
+    border: 0px;
+    border-radius: 500px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    color: var(--text-subdued,#6a6a6a);
+    min-inline-size: 0px;
+    padding-block: 8px;
+    min-block-size: 32px;
+    padding-inline: 8px;
+}
+
+/* The "bxwPwV" class applies a flex display and shifts the svg down by correctly sizing it.
+*/
+#moon-svg {
+    display: flex;
+}
